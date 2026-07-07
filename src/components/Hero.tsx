@@ -8,10 +8,10 @@ export const Hero = () => {
       {/* Background Gradient & Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary to-[#0a2342] dark:from-[#05162a] dark:to-[#020b16] z-0" />
       
-      {/* Karnataka Road / Travel Background Overlay */}
+      {/* Background Car Image Overlay */}
       <div 
-        className="absolute inset-0 opacity-15 mix-blend-overlay z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://imgs.mongabay.com/wp-content/uploads/sites/30/2020/09/23213537/An_Indian_Highway_in_Karnataka_2009-768x512.jpg')" }}
+        className="absolute inset-0 opacity-25 mix-blend-overlay z-0 bg-cover bg-[60%_center] md:bg-center"
+        style={{ backgroundImage: "url('/hero-bg.jpg')" }}
       />
       
       <div className="container mx-auto px-4 md:px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
