@@ -28,7 +28,7 @@ const queryClient = new QueryClient();
 
 function HomePage() {
   return (
-    <div className="min-h-screen w-full font-sans">
+    <div className="min-h-screen w-full font-sans bg-white dark:bg-background">
       <Navbar />
       <main>
         <Hero />
