@@ -48,7 +48,7 @@ export const Reviews = () => {
   );
 
   return (
-    <section id="reviews" className="py-24 bg-gray-50 dark:bg-background overflow-hidden relative">
+    <section id="reviews" className="py-24 bg-white dark:bg-background overflow-hidden relative">
       {/* Decorative large quotes */}
       <Quote className="absolute top-20 left-10 w-64 h-64 text-primary/5 dark:text-primary/10 -rotate-12 pointer-events-none" />
       <Quote className="absolute bottom-20 right-10 w-64 h-64 text-accent/5 dark:text-accent/10 rotate-12 pointer-events-none" />
